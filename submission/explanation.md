@@ -6,4 +6,4 @@ Provide a link to your source code, preferably in GitHub.
 
 Provide a link to your Docker image.
 hub.docker.com/repository/docker/yoyoyunoo/track2
-yoyoyunoo/track2:6.7
+yoyoyunoo/track2:7.0
