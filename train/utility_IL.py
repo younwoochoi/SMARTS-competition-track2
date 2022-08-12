@@ -131,7 +131,7 @@ def load_data_scratch(dataset_path, save_path):
                 obs[-1].append(np.array([dx_goal, dy_goal]))
                 actions.append([dx, dy, d_heading])
 
-    obs = np.array(obs)
+    obs = np.array(obs, dtype=object)
     actions = np.array(actions)
 
     # normalizing dx dy
